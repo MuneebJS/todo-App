@@ -6,7 +6,7 @@ var listArray = [];
 function add_in_list() {
     if (todoInput.value == "") {
         alert("Please write something");
-    }
+    } 
     else {
         listArray.push(todoInput.value);
         data = "";

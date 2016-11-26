@@ -3,16 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>To do app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stop Watch</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div class="main">
+    
+    <div class="container">
         <h1> To do list app</h1>
         <label>Task</label> <br>
-        <input type="text" id="todo-input" autofocus> <input type="button" id="rm" value="Remove All" style="display:none" onclick="remove();"> <br>
-        <input type="button" value="Add" id="todo-add" onclick="add_in_list();">
+        <input type="text" id="todo-input" autofocus> <input type="button" class="btn" id="rm" value="Remove All" style="display:none" onclick="remove();"> <br>
+        <input type="button" value="Add" id="add" class="btn" id="todo-add" onclick="add_in_list();">
         <div id="todo-list-contain">
             <ul id="ul">
             </ul>

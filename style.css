@@ -1,5 +1,12 @@
+body {
+    background-color: darkcyan;
+    line-height: 2em;
+}
+/*.container {*/
+    /*text-align: center;*/
+/*}*/
 #todo-list-contain {
-    margin: 10px;
+    margin-top: 20px;
     padding: 10px;
     line-height: 2em;
     list-style: disc;
@@ -7,6 +14,23 @@
     border: 2px solid black;
 }
 .btn  {
-    margin: 10px;
+    margin-left: 50px;
     padding: 10;
+}
+#add {
+    margin-top: 10px;
+margin-left: 10px;
+}
+#todo-input {
+    width: 100%;
+    height: 40px;
+}
+label {
+    font-size: 35px;
+    font-style: oblique;
+    font-family: monospace;
+    float: left;
+}
+li {
+    font-size: 25px;
 }
