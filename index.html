@@ -16,12 +16,13 @@
     <div class="container">
         <h1> To do list app</h1>
         <label>Task</label> <br>
-        <input type="text" id="todo-input" autofocus> <input type="button" class="btn" id="rm" value="Remove All" style="display:none" onclick="remove();"> <br>
-        <input type="button" value="Add" id="add" class="btn" id="todo-add" onclick="add_in_list();">
+        <input type="text" id="todo-input" autofocus> <input type="button" value="Add" id="add" class="btn" id="todo-add" onclick="add_in_list();"><br>
         <div id="todo-list-contain">
             <ul id="ul">
             </ul>
+            <input type="button" class="btn" id="rm" value="Remove All" style="display:none" onclick="remove();">
         </div>
+        
     </div>
 </body>
 <script src="app.js"></script>
